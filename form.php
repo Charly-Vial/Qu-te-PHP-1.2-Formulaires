@@ -14,27 +14,27 @@
         <form action="thanks.php" method="POST">
             <div>
                 <label for="nom">Nom :</label>
-                <input type="text" id="nom" name="nom"></span><br><br>
+                <input type="text" id="nom" name="nom" required></span><br><br>
             </div>
 
             <div>
                 <label for="prenom">Prénom :</label>
-                <input type="text" id="prenom" name="prenom"></span><br><br>
+                <input type="text" id="prenom" name="prenom" required></span><br><br>
             </div>
 
             <div>
-                <label for="email">email :</label> 
-                <input type="email" id="email" name="email"></span><br><br>
+                <label for="email">email :</label>
+                <input type="email" id="email" name="email" required></span><br><br>
             </div>
 
             <div>
                 <label for="telephone">Telephone :</label>
-                <input type="tel" id="telephone" name="telephone"></span><br><br>
+                <input type="tel" id="telephone" name="telephone" required></span><br><br>
             </div> 
                 
             <div>
                 <label for="sujet">Sujet :</label>
-                <select name="sujet" id="sujet">
+                <select name="sujet" id="sujet" required>
                     <option value=""></option>
                     <option value="choix1">Sujet 1</option>
                     <option value="choix2">Sujet 2</option>
@@ -44,7 +44,7 @@
 
             <div>
                 <label for="message">Message :</label></span><br>
-                <textarea name="message" id="message" cols="30" rows="10"></textarea><br><br>
+                <textarea required name="message" id="message" cols="30" rows="10"></textarea><br><br>
             </div>
 
             <div  class="button">
